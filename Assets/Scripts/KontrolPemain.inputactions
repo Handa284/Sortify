@@ -1,0 +1,54 @@
+{
+    "name": "KontrolPemain",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "e2039daa-8651-44be-bb4f-76a89cc344ee",
+            "actions": [
+                {
+                    "name": "Sentuh",
+                    "type": "Button",
+                    "id": "ef241d4e-2097-4309-ac9b-af9067c235dc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PosisiLayar",
+                    "type": "Value",
+                    "id": "320dffc6-374b-40f6-80ce-74f07ea80f6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a709f32d-bdc8-4129-8973-e96946223bcc",
+                    "path": "<Pointer>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sentuh",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4656e855-e004-4257-970f-feacfe755806",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PosisiLayar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
