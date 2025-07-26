@@ -14,8 +14,8 @@
 2.  **Swipe** the trash object left or right.
 3.  Guide the trash into the correct bin based on its color:
     * **Green**: Organic Waste
-    * **Blue**: Non-Organic Waste
-    * **Yellow**: Hazardous/B3
+    * **Yellow**: Non-Organic Waste
+    * **Red**: Hazardous/B3
 4.  A single mistake will end the game. Aim for the highest score!
 
 ## Tech Stack
